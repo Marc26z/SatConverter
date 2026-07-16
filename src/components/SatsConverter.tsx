@@ -73,7 +73,7 @@ export function SatsConverter() {
           {/* Hero text */}
           <div className="text-center space-y-2">
             <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
-              <span className="text-red-500">$</span> to{' '}
+              <span className="text-green-500">$</span> to{' '}
               <span className="text-red-500">⚡</span> Sats
             </h1>
             <p className="text-gray-400 text-sm sm:text-base">
@@ -184,9 +184,9 @@ export function SatsConverter() {
                     Satoshis
                   </span>
                 </div>
-                <p className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight">
+                <p className="text-4xl sm:text-5xl font-extrabold tracking-tight" style={{ color: '#F7931A' }}>
                   {formatSats(satsAmount)}
-                  <span className="text-red-500 text-2xl sm:text-3xl ml-2">sats</span>
+                  <span className="text-2xl sm:text-3xl ml-2">sats</span>
                 </p>
                 <p className="text-gray-500 text-sm mt-2">
                   ≈ {formatBtc(satsAmount)} BTC
