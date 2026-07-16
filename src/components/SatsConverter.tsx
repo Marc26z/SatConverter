@@ -81,7 +81,17 @@ export function SatsConverter() {
             </p>
             <ul className="text-gray-500 text-sm space-y-1 mt-2">
               <li>• Enter Your Cost In Dollars</li>
-              <li>• The cost in sats will be converted below</li>
+              <li>• The dollar amount will be converted to{' '}
+                <a
+                  href="https://strike.me/en/learn/what-are-satoshis/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-red-500 hover:text-red-400 underline underline-offset-2 transition-colors"
+                >
+                  sats
+                </a>
+                {' '}below
+              </li>
             </ul>
           </div>
 
