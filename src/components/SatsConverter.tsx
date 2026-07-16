@@ -46,7 +46,7 @@ export function SatsConverter() {
       <header className="border-b border-red-900/40 bg-black/90 backdrop-blur sticky top-0 z-10">
         <div className="max-w-lg mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="bg-red-600 rounded-full p-1.5">
+            <div className="rounded-full p-1.5" style={{ backgroundColor: '#F7931A' }}>
               <Bitcoin className="w-5 h-5 text-white" strokeWidth={2.5} />
             </div>
             <span className="font-bold text-lg tracking-tight text-white">
