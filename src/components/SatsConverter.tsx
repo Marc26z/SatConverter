@@ -79,6 +79,10 @@ export function SatsConverter() {
             <p className="text-gray-400 text-sm sm:text-base">
               Instantly convert US dollars to Bitcoin satoshis
             </p>
+            <ul className="text-gray-500 text-sm space-y-1 mt-2">
+              <li>• Enter Your Cost In Dollars</li>
+              <li>• The cost in sats will be converted below</li>
+            </ul>
           </div>
 
           {/* BTC Price Banner */}
